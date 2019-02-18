@@ -1,4 +1,20 @@
+a,
+p {
+  color: #78797b;
+}
 img[data-tag='logo-placetopay'] {
-  width: 150px;
+  width: 100px;
+  margin-top: 20px;
+}
+.hrbg {
+  background: #8a8a8a;
+  background: -moz-linear-gradient(left, #8a8a8a 0%, #18f0de 49%, #478509 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #8a8a8a), color-stop(49%, #18f0de), color-stop(100%, #478509));
+  background: -webkit-linear-gradient(left, #8a8a8a 0%, #18f0de 49%, #478509 100%);
+  background: -o-linear-gradient(left, #8a8a8a 0%, #18f0de 49%, #478509 100%);
+  background: -ms-linear-gradient(left, #8a8a8a 0%, #18f0de 49%, #478509 100%);
+  background: linear-gradient(to right, #8a8a8a 0%, #18f0de 49%, #478509 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a8a8a', endColorstr='#478509', GradientType=1);
+  height: 5px;
 }
 /*# sourceMappingURL=style.css.map */
